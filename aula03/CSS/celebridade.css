@@ -1,0 +1,74 @@
+/*Seletor para o corpo da página*/
+body {
+    /*Propriedades e valores*/
+    background-color: rgb(203, 201, 206);
+    
+     }
+ /*Seletor h1 e suas propriedades*/
+ h1 {
+    text-align: center;
+    color: rgb(206, 30, 212);
+    font-family: Arial Black;
+    font-size: 400%;
+ }
+  
+ /*Seletor h2, propriedades e valores*/
+ h2 {
+    text-align: center;
+    color: rgb(49, 17, 190);
+    font-family: serif;
+    font-size: 250%;
+ }
+   
+ /*Seletor h2, propriedades e valores*/
+ h4 {
+    text-align: center;
+    color: rgb(46, 129, 224);
+    font-family: serif;
+    font-size: 250%;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet');
+
+
+/*Seletor h1 e suas propriedades*/
+h1 {
+    text-align: center;
+       color: rgb(3, 3, 3);
+       font-family: Algerian;
+       font-size: 400%;
+    }
+    /*Seletor h2, propriedades e valores*/
+    h2 {
+        text-align: center;
+    
+       color: rgb(135, 75, 231);
+       font-family: Candara;
+       font-size: 250%;
+    }
+
+     /*Seletor h2, propriedades e valores*/
+     h4 {
+        text-align: center;
+    
+       color: rgb(116, 153, 158);
+       font-family: Candara;
+       font-size: 250%;
+    }
+    
+    /*Seletor da Imagem, propriedades e valores*/
+img {
+   height: 200px;/*Altura em pixels*/
+   width: 200px;/*Largura em pixels*/
+   box-shadow: 5px 5px 10px black;/*sombra*/
+   border-radius: 20px;/*Borda arredondada*/
+}
+
+/*Identificador usa-se a HASH #*/
+img#imgPrincipal {
+    /*Centralização da Imagem*/
+    display: block; /*Quebra de linha*/
+    margin: 50px auto;
+    width: 50%;
+    height: auto;
+}
