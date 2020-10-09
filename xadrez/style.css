@@ -1,0 +1,14 @@
+.xadrez {
+    text-align: center;
+}
+
+
+.center {
+    -webkit-transition: all .3 ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.center:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
